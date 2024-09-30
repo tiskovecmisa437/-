@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #808000;
+  }
+  .alphabet {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    align-content: space-around;
+    gap: 20px;
+  }
+  .letter {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 1 ease;
+  }
+  
+  .letter:hover {
+    background-color: yellow;
+  }
+  .a * {
+    border: solid;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+  .a {
+    display: flex;
+    gap: 20px;
+  }
+  
